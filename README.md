@@ -1,6 +1,9 @@
 # backtesting
 
-30 March, 2017
-更新：
-1、将python3编写的backtesting脚本更改为在python2环境下可运行，共5个文件，执行python UI.py即可运行脚本；
-2、更新加载csv文件到数据库的程序，考虑backtesting脚本的运行效率，及服务器磁盘大小，减少部分不需要使用的条目。
+11 April, 2017
+
+进度：
+完成了样例数据文件IF0000_1min.csv的插入；
+完成了vnpy两个回测脚本strategyAtrRsi.py和strategyKingKeltner.py的调试运行，可以正确运行得出结果。
+接下来：
+demo脚本的数据插入和回测是基于K线模式的，需要编写适合tick模式的脚本。
